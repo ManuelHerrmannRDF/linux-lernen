@@ -21,3 +21,12 @@ jobs:
 
       - name: Welches System läuft hier?
         run: uname -a
+
+      - name: Mein Name ist!
+        run: echo "Mein Name ist Manuel" 
+
+      - name: Datum 
+        run: date +%Y-%m-%d
+
+      - name: Systeminfo
+        run: uname -r
